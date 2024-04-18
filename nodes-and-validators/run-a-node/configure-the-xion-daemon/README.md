@@ -23,7 +23,7 @@ The [Cosmos SDK documentation](https://docs.cosmos.network/v0.47) is a good plac
 ```
 $ xiond init my-awesome-moniker \
     --chain-id xion-testnet-1 \
-    --home /tmp/node
+    --home /home/xiond/.xiond
 ```
 
 ## Refer to the config directory
@@ -31,7 +31,7 @@ $ xiond init my-awesome-moniker \
 * The `xiond init` command will output this structure to the specified `--home:`
 
 ```
-.                                   # /tmp/node
+.                                   # /home/xiond/.xiond
   |- data                           # Contains the databases used by the node.
   |- config/
       |- app.toml                   # Application-related configuration file.
